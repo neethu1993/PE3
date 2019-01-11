@@ -13,14 +13,14 @@ public class TryCatchFinally {
     }
 
     /*Main method with try catch block and finally*/
-    public static void main(String[] args) {
-        try{
-           customException();
-        }catch (Exception e){
-            System.out.println("Inside Exception Block and raised the below given Exception:");
-            System.out.println(e);
-        }finally {
-            System.out.println("Inside Finally Block");
-        }
-    }
+//    public static void main(String[] args) {
+//        try{
+//           customException();
+//        }catch (Exception e){
+//            System.out.println("Inside Exception Block and raised the below given Exception:");
+//            System.out.println(e);
+//        }finally {
+//            System.out.println("Inside Finally Block");
+//        }
+//    }
 }

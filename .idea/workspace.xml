@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e46c341-5059-4791-9830-8cb8be33397c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/p3/ChessBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/p3/TryCatchFinallyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/p3/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/p3/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/ChessBoard.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="66">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -35,14 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/p3/ChessBoardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/p3/TryCatchFinallyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-              <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -80,12 +76,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/ConsecutiveSeries.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/MatrixAddition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/StudentMark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/TypesOfExceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/VowelRemoval.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/WeekDate.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/stackroute/p3/ChessBoardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/ChessBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/stackroute/p3/TryCatchFinallyTest.java" />
       </list>
     </option>
   </component>
@@ -162,7 +159,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547231734648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547232467150" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PE2" />
@@ -194,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChessBoardTest">
+  <component name="RunManager" selected="JUnit.TryCatchFinallyTest.testExceptionMessage">
     <configuration name="ChessBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
@@ -258,7 +255,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TryCatchFinallyTest.testExceptionMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
         <pattern>
@@ -267,19 +264,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.p3" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.p3.WeekDateTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.p3.TryCatchFinallyTest" />
+      <option name="METHOD_NAME" value="testExceptionMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TryCatchFinallyTest.testExceptionMessage" />
         <item itemvalue="JUnit.ChessBoardTest" />
         <item itemvalue="JUnit.ChessBoardTest.testInvalid" />
         <item itemvalue="JUnit.ChessBoardTest.testChessBoardMethodFailure" />
         <item itemvalue="JUnit.ChessBoardTest.testChessBoardMethodSuccess" />
-        <item itemvalue="JUnit.WeekDateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -297,35 +295,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMarkTest_testInvalidValue - 2019.01.08 at 09h 51m 31s.xml">
-      <configuration name="StudentMarkTest.testInvalidValue" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_testChessBoardMethodSuccess - 2019.01.12 at 00h 02m 12s.xml">
+      <configuration name="ChessBoardTest.testChessBoardMethodSuccess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMarkTest - 2019.01.08 at 09h 53m 12s.xml">
-      <configuration name="StudentMarkTest" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_testChessBoardMethodFailure - 2019.01.12 at 00h 03m 10s.xml">
+      <configuration name="ChessBoardTest.testChessBoardMethodFailure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsecutiveSeriesTest_testConsecutiveSeriesMethodNeutral - 2019.01.08 at 10h 17m 33s.xml">
-      <configuration name="ConsecutiveSeriesTest.testConsecutiveSeriesMethodNeutral" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_testInvalid - 2019.01.12 at 00h 04m 26s.xml">
+      <configuration name="ChessBoardTest.testInvalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsecutiveSeriesTest_testConsecutiveSeriesMethodNeutral - 2019.01.08 at 10h 19m 48s.xml">
-      <configuration name="ConsecutiveSeriesTest.testConsecutiveSeriesMethodNeutral" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_testInvalid - 2019.01.12 at 00h 05m 25s.xml">
+      <configuration name="ChessBoardTest.testInvalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsecutiveSeriesTest_testConsecutiveSeriesMethodNeutral - 2019.01.08 at 10h 20m 04s.xml">
-      <configuration name="ConsecutiveSeriesTest.testConsecutiveSeriesMethodNeutral" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest_testInvalid - 2019.01.12 at 00h 05m 30s.xml">
+      <configuration name="ChessBoardTest.testInvalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsecutiveSeriesTest_testConsecutiveSeriesMethodNeutral - 2019.01.08 at 10h 20m 26s.xml">
-      <configuration name="ConsecutiveSeriesTest.testConsecutiveSeriesMethodNeutral" configurationId="JUnit" />
+    <history-entry file="ChessBoardTest - 2019.01.12 at 00h 05m 35s.xml">
+      <configuration name="ChessBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelRemovalTest - 2019.01.08 at 10h 35m 38s.xml">
-      <configuration name="VowelRemovalTest" configurationId="JUnit" />
+    <history-entry file="TryCatchFinallyTest_testExceptionMessage - 2019.01.12 at 00h 14m 10s.xml">
+      <configuration name="TryCatchFinallyTest.testExceptionMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsecutiveSeriesTest - 2019.01.08 at 12h 03m 52s.xml">
-      <configuration name="ConsecutiveSeriesTest" configurationId="JUnit" />
+    <history-entry file="TryCatchFinallyTest_testExceptionMessage - 2019.01.12 at 00h 14m 39s.xml">
+      <configuration name="TryCatchFinallyTest.testExceptionMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MatrixAdditionTest - 2019.01.11 at 14h 45m 52s.xml">
-      <configuration name="MatrixAdditionTest" configurationId="JUnit" />
+    <history-entry file="TryCatchFinallyTest_testExceptionMessage - 2019.01.12 at 00h 14m 55s.xml">
+      <configuration name="TryCatchFinallyTest.testExceptionMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeekDateTest - 2019.01.11 at 15h 22m 24s.xml">
-      <configuration name="WeekDateTest" configurationId="JUnit" />
+    <history-entry file="TryCatchFinallyTest_testExceptionMessage - 2019.01.12 at 00h 16m 13s.xml">
+      <configuration name="TryCatchFinallyTest.testExceptionMessage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +335,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26177174" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26177174" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -345,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3306189" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3306189" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -425,16 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/TypesOfExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -474,24 +462,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/p3/ChessBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="-94">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/p3/ChessBoardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/p3/TryCatchFinally.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="66">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="46" />
           <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/p3/TryCatchFinallyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>

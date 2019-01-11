@@ -159,7 +159,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547232467150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547232587761" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/PE2" />
@@ -191,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TryCatchFinallyTest.testExceptionMessage">
+  <component name="RunManager" selected="JUnit.TryCatchFinallyTest.testCustomException">
     <configuration name="ChessBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
@@ -223,22 +223,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChessBoardTest.testChessBoardMethodSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PE3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.p3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.p3" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.p3.ChessBoardTest" />
-      <option name="METHOD_NAME" value="testChessBoardMethodSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ChessBoardTest.testInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
@@ -250,6 +234,22 @@
       <option name="PACKAGE_NAME" value="com.stackroute.p3" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.p3.ChessBoardTest" />
       <option name="METHOD_NAME" value="testInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryCatchFinallyTest.testCustomException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.p3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.p3" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.p3.TryCatchFinallyTest" />
+      <option name="METHOD_NAME" value="testCustomException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TryCatchFinallyTest.testCustomException" />
         <item itemvalue="JUnit.TryCatchFinallyTest.testExceptionMessage" />
         <item itemvalue="JUnit.ChessBoardTest" />
         <item itemvalue="JUnit.ChessBoardTest.testInvalid" />
         <item itemvalue="JUnit.ChessBoardTest.testChessBoardMethodFailure" />
-        <item itemvalue="JUnit.ChessBoardTest.testChessBoardMethodSuccess" />
       </list>
     </recent_temporary>
   </component>

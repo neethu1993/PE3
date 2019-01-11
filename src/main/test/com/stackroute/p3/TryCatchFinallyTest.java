@@ -25,6 +25,8 @@ public class TryCatchFinallyTest {
             //fail("Expected an IndexOutOfBoundsException to be thrown");
         } catch (Exception e) {
             assertNotNull(e);
+        }finally {
+            System.out.println("Inside finally block");
         }
     }
 }

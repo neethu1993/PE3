@@ -7,26 +7,26 @@ package com.stackroute.p3;
 public class ChessBoard {
 
     /*Method to print the chessboard*/
-    public void chessBoardMethod() {
+    public Boolean chessBoardMethod(int m,int n) {
 
-            for (int i=0;i<8;i++){
+        if (m == 8 && n == 8) {
+            for (int i = 0; i < 8; i++) {
                 System.out.println();
-                for (int j=0;j<8;j++){
+                for (int j = 0; j < 8; j++) {
 
                     //Checks for the sum is even and prints Ww or BB
-                    if(i+j==0 || (i+j)%2==0){
+                    if (i + j == 0 || (i + j) % 2 == 0) {
                         System.out.print("WW|");
-                    }
-                    else {
+                    } else {
                         System.out.print("BB|");
                     }
                 }
             }
-    }
-
-    /*Main method*/
-    public static void main(String[] args) {
-        ChessBoard chessBoard = new ChessBoard();
-        chessBoard.chessBoardMethod();
+            return true;
+        }
+        else if (m == 0 || n == 0)
+            return null;
+        else
+            return false;
     }
 }

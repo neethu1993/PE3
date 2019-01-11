@@ -1,9 +1,19 @@
+/**
+ * Program to create a ChessBoard pattern with the help of multidimensional array, where
+ * WW represents white color and BB represents Black color.
+ */
+package com.stackroute.p3;
+
 public class ChessBoard {
+
+    /*Method to print the chessboard*/
     public void chessBoardMethod() {
 
             for (int i=0;i<8;i++){
                 System.out.println();
                 for (int j=0;j<8;j++){
+
+                    //Checks for the sum is even and prints Ww or BB
                     if(i+j==0 || (i+j)%2==0){
                         System.out.print("WW|");
                     }
@@ -14,8 +24,9 @@ public class ChessBoard {
             }
     }
 
+    /*Main method*/
     public static void main(String[] args) {
-        ChessBoard object = new ChessBoard();
-        object.chessBoardMethod();
+        ChessBoard chessBoard = new ChessBoard();
+        chessBoard.chessBoardMethod();
     }
 }

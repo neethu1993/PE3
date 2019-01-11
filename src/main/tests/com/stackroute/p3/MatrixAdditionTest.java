@@ -1,9 +1,9 @@
+package com.stackroute.p3;
+
+import com.stackroute.p3.MatrixAddition;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.Assert.*;
 

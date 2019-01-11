@@ -1,3 +1,6 @@
+package com.stackroute.p3;
+
+import com.stackroute.p3.VowelRemoval;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

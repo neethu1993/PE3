@@ -1,11 +1,9 @@
+package com.stackroute.p3;
+
+import com.stackroute.p3.WeekDate;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.concurrent.ExecutionException;
 
 import static org.junit.Assert.*;
 

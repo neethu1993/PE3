@@ -1,5 +1,8 @@
-/*Checks whether the grade is between 0 and 100
-*/
+/**
+ * Checks whether the grade is between 0 and 100
+ */
+package com.stackroute.p3;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,10 +16,7 @@ public class StudentMark {
         System.out.println(numOfStudents);
         stuGrades = new ArrayList<>(); //creates an object for list
 
-        /*Checks for the grade is between 0 and 1000
-
-         */
-
+        /*Checks for the grade is between 0 and 1000*/
         for (int grade:marks) {
             if((grade >= 0) && (grade<=100)) {
                 stuGrades.add(grade);

@@ -1,8 +1,9 @@
+package com.stackroute.p3;
+
+import com.stackroute.p3.ConsecutiveSeries;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.lang.reflect.TypeVariable;
 
 import static org.junit.Assert.*;
 

@@ -34,7 +34,7 @@ Place Name without Vowels:1 Untd Stts
 Place Name without Vowels:2 Grmny
 Place Name without Vowels:3 Egypt
 Place Name without Vowels:4 czchslvk
-5. Write a program to create a ChessBoard pattern with the help of multidimensional array, where
+5. Write a program to create a com.stackroute.p3.ChessBoard pattern with the help of multidimensional array, where
 WWrepresents white color and BB represents Black color.
 Output:
 My Chess Board

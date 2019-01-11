@@ -1,3 +1,6 @@
+package com.stackroute.p3;
+
+import com.stackroute.p3.StudentMark;
 import org.junit.*;
 
 import java.util.ArrayList;
